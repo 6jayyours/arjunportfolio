@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Arjun Portfolio</title>
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <!-- web fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <!-- /web fonts -->
+</head>
+
+<body>
+  <!-- header -->
+  <header class="w3l-header">
+    <div class="hero-header-11">
+      <div class="hero-header-11-content">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl navbar-light py-sm-2 py-1 px-0">
+            <a class="navbar-brand editContent" href="index.html">Folio</a>
+            <!-- if logo is image enable this   
+				<a class="navbar-brand" href="#index.html">
+						<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+				</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="education.html">Education</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="work.html">project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- Contact section -->
+<section class="w3l-contact py-5" id="contact">
+    <div class="container py-lg-3">
+      <h3 class="global-title">Drop me a Message</h3>
+      <div class="row">
+        <div class="col-md-8 contact-form">
+          <form action="https://script.google.com/macros/s/AKfycbzmshKKrGLL_W1VtNuPTT9o12t--UafbSYGAKtHgemSM8SzeRNheRnVlDfZzXAYRgGL8Q/exec" method="POST" id="gform" >
+            <input type="text" class="form-control" name="w3lName" placeholder="Name" required/><br />
+            <input type="email" class="form-control" name="w3lSender" placeholder="E-mail" required/><br />
+            <input type="text" class="form-control" name="w3lSubject" placeholder="Subject" required/><br />
+            <textarea class="form-control" name="w3lMessage" placeholder="Your Message" style="height:150px;" required></textarea><br />
+            <button class="btn btn-primary theme-button" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="col-md-4 mt-md-0 mt-5 w3-contact-address">
+          <b>Address:</b>
+          <p>Brototype,</p>
+          <p>HustleHub TechPark,</p>
+          <p>Somasundarapalya,</p>
+          <p>Bangalore</p>
+          <br />
+          <b>Phone:</b>
+          <p><a href="tel:+11-22-55-66-05">+916282205698</p>
+          <p><a href="tel:+11-22-55-66-06">+917259925825</p>
+          <br />
+          <b>Email:</b>
+          <p><a href="mailto:christopher@mysite.com">marjunramesh@gmail.com</a></p>
+          <p><a href="mailto:support@mysite.com">marjunr666@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //Contact section -->
+
+
+  <footer class="w3l-footer">
+    <div id="footers14-block" class="py-3">
+      <div class="container">
+        <div class="footers14-bottom text-center">
+          <div class="social">
+            <a href="https://github.com/6jayyours" class="github"><span class="fa fa-github" aria-hidden="true"></span></a>
+            <a href="https://www.linkedin.com/in/arjun-m-09a4a9277/" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+            <a href="https://twitter.com/6jyours" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+            <a href="https://www.instagram.com/x__entrik/?igshid=MjEwN2IyYWYwYw==" class="instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+            <a href="https://www.youtube.com/channel/UCEfvFo-L1INzELIO9_Kgalg" class="youtube"><span class="fa fa-youtube" aria-hidden="true"></span></a>
+          </div>
+          <div class="copyright mt-1">
+            <p>© 2023 6jyours. All Rights Reserved | Design by <a href="index.html">6jyours</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up" aria-hidden="true"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Template JavaScript -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+
+  <script src="assets/js/smartphoto.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sm = new SmartPhoto(".js-img-viwer", {
+        showAnimation: false
+      });
+      // sm.destroy();
+    });
+  </script>
+
+
+</body>
+
+</html>
